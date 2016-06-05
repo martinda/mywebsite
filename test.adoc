@@ -3,9 +3,10 @@
 Some text
 
 [source,makefile,numbered]
-outputfile.txt:
-  echo "text" >outputfile.txt    # <1>
+outputfile.txt:  # <1>
+  echo "text" >$@    # <2>
 
-<1> Create outputfile.txt
+<1> Declare the target to be 'outputfile.txt'
+<2> Create the target
 
 More text
