@@ -1,0 +1,11 @@
+= Title
+
+Some text
+
+[source,makefile,numbered]
+outputfile.txt:
+  echo "text" >outputfile.txt    # <1>
+
+<1> Create outputfile.txt
+
+More text
