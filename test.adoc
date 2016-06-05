@@ -2,13 +2,22 @@
 
 = Title
 
-Some text
+Source code looks good with Asciidoctor and {source-highlighter}
 
+----
 [source,makefile,linenums]
 outputfile.txt:  # <1>
   echo "text" >$@    # <2>
+----
 
 <1> Declare the target to be 'outputfile.txt'
 <2> Create the target
+
+Including source code:
+
+----
+[source,makefile,linenums]
+include::demo.mk
+----
 
 More text
