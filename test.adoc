@@ -2,7 +2,7 @@
 
 Some text
 
-[source,makefile,numbered]
+[source,makefile,linenums]
 outputfile.txt:  # <1>
   echo "text" >$@    # <2>
 
